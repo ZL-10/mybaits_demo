@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.zl.dao.IUserDao">
+    <!--配置查询所有-->
+    <select id="findAll" resultType="com.zl.domain.User">
+        select * from user
+    </select>
+
+    <select id="findById" resultType="com.zl.domain.User" parameterType="int">
+        select * from user where id= #{uid}
+    </select>
+</mapper>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e2281c7-d890-4e30-89b5-5c00ef57613a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1USzP4TuW3ezHOyEOfXhNHrhMZ5" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\后端\SSM\mybatis_projectCode\mybatis_mybatisCRUD\src\main\resources\com\zl\dao" />
+      <recent name="C:\Study\后端\SSM\mybatis_projectCode\mybatis_mybatisCRUD\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\后端\SSM\mybatis_projectCode\mybatis_mybatisCRUD\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.findAll">
+    <configuration name="MybatisTest.TestSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="TestSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindByQueryVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindByQueryVo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_mybatisCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zl.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.findAll" />
+        <item itemvalue="JUnit.MybatisTest.testFindByQueryVo" />
+        <item itemvalue="JUnit.MybatisTest.TestSaveUser" />
+        <item itemvalue="JUnit.MybatisTest.testDeleteUser" />
+        <item itemvalue="JUnit.MybatisTest.testFindTotal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e2281c7-d890-4e30-89b5-5c00ef57613a" name="Default Changelist" comment="" />
+      <created>1575364756965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575364756965</updated>
+      <workItem from="1575364758429" duration="2534000" />
+      <workItem from="1575376904291" duration="6996000" />
+      <workItem from="1575421339312" duration="7000" />
+      <workItem from="1575461142219" duration="4816000" />
+      <workItem from="1575525433369" duration="1000" />
+      <workItem from="1575525441902" duration="11000" />
+      <workItem from="1575529756551" duration="1446000" />
+      <workItem from="1575531627167" duration="1842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

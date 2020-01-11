@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zl.dao.IUserDao">
+    <!--当实体类的属性和表中的字段对应不上时，可使用下面的配置-->
+    <!--配置 查询结果的列名和实体类的属性名的对应关系-->
+    <resultMap id="userMap" type="com.zl.domain.User">
+        <!--主键字段对应-->
+        <id property="userId" column="id"></id>
+        <!--非主键的对应-->
+        <result property="userName" column="username"></result>
+        <result property="userAddress" column="address"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userBirthday" column="birthday"></result>
+    </resultMap>
+
+<!--
+    <select id="findAll" resultType="com.zl.domain.User">
+-->
+    <select id="findAll" resultMap="userMap">
+        select * from user;
+    </select>
+
+    <insert id="saveUser" parameterType="User">
+        <!--配置插入操作后，获取插入数据的id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="INT" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday)values (#{userName},#{address},#{sex},#{birthday});
+    </insert>
+
+    <update id="updateUser" parameterType="uSeR">
+        update user set username=#{userName},address=#{address},sex=#{sex},birthday=#{birthday} where id=#{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="INT">
+        delete from user where id=#{id};
+    </delete>
+
+    <select id="findById" parameterType="INT" resultMap="userMap">
+        select * from user where id=#{id};
+    </select>
+
+    <select id="findByName" parameterType="STRING" resultMap="userMap">
+        select * from user where username like #{name};
+    </select>
+
+    <!--获取用户总记录条数-->
+    <select id="findTotal" resultType="INT">
+        select count(id) from user;
+    </select>
+
+    <select id="findByQueryVo" parameterType="com.zl.domain.QueryVo" resultMap="userMap">
+        select * from user where username like #{user.username};
+    </select>
+
+</mapper>
